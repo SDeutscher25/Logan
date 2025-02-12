@@ -1,0 +1,33 @@
+.title {
+    color: green;
+}
+body{
+    background-image: url("newyears.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2,h3,p,ol,table{
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black;
+}
+h1{
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: yellow;
+}
+table, th, td{
+    border: 1px solid white;
+}
+h4{
+    font-size: 0px;
+}
+a{
+    border: 2px white solid;
+    padding: 15px 15px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+    color: black;
+}

@@ -1,0 +1,46 @@
+body {
+    font: italic;
+    background:  rgb(230, 0, 0);
+    color: white;
+}
+p{
+    color: blue;
+    font-style: italic;
+}
+hr{
+    border-color: blue;
+}
+h1{
+    font-size: xxx-large;
+    text-align: center;
+}
+h2{
+    font-weight: normal
+}
+img{
+    border: 3px dashed white;
+    height: 300px;
+    width: 500px;
+    border-radius: 25%;
+}
+#dog2 {
+    border: 3px dashed white;
+    height: 400px;
+    width: 400px;
+    border-radius: 25%;
+}
+#dog3 {
+    border: 3px dashed white;
+    height: 200px;
+    width: 600px;
+    border-radius: 25%;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center2{
+    display: block;
+    margin-left: auto;
+}

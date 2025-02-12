@@ -1,0 +1,74 @@
+.title {
+    color: green;
+}
+
+#title2 {
+    color: red;
+    text-align: center;
+    font-size: 35px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+hr {
+    height: 5px;
+    background-color: red;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px groove;
+    border-color: red;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    width: 650px;
+    display: text;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkred;
+    
+}
+
+button {
+    background-color: red;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    text-align: center;
+    font-style: italic;
+    color: darkred;
+}
+
+ol{
+    text-align: center;
+    font-style: italic;
+    width: 650px;
+    display: text;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkred;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    border: 11px red groove;
+}

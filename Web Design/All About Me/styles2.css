@@ -1,0 +1,36 @@
+body{
+    background-color: #920000;
+}
+table{
+    font-family: arial,sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border: 2px solid red;
+    text-align: center;
+    padding: 7px;
+}
+tr:nth-child(odd){
+    background-color: red;
+}
+tr:nth-child(even){
+    color:white;
+}
+h1{
+    color: white;
+}
+button{
+    background-color: red;
+    font-weight: bold;
+    display: block;
+    margin-left: 53px;
+
+}
+h3{
+    height: 0px;
+}
+hr{
+    border: 3px inset red;
+    width: 150px;
+}
