@@ -14,3 +14,43 @@ body{
     width: 700px;
     font-size: larger;
 }
+#iron{
+    height: 200px;
+    width: 300px;
+    background-image: url("ironbackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 3px lightgrey;
+}
+button{
+    text-shadow: -1px 0 lightgrey, 0 1px lightgrey, 1px 0 lightgrey, 0 -1px lightgrey;
+    color: darkred;
+}
+#cap{
+    height: 200px;
+    width: 300px;
+    background-image: url("capbackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 3px lightgrey;
+}
+#spider{
+    height: 200px;
+    width: 300px;
+    background-image: url("spiderbackground.jpeg");
+    background-position: top 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 3px lightgrey;
+}
+#you{
+    height: 200px;
+    width: 300px;
+    background-image: url("ironbackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 3px lightgrey;
+}
