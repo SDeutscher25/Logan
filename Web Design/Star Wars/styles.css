@@ -1,0 +1,67 @@
+.title {
+    color: green;
+}
+body {
+    font-family: "Lucida Console", "San-serif", monospace;
+    color: white;
+    background-image: url("background.jpeg");
+    width: 630px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 250%;
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+nav li {
+    background-color: white;
+    margin: auto;
+    padding: 1px;
+    border-radius: 10px;    
+}
+
+.photo img {
+    width: 300px;
+    border-radius: 50px;  
+}
+
+.thumbs img {
+    height: 100px;
+    border-radius: 20px;    
+}
+
+.droid {
+    background-color: grey;
+    padding: 20px;
+    margin: auto;
+    border: 2px white solid;
+    border-radius: 30px; 
+}
+
+.droid .photo {
+    float: left;
+    margin: auto;
+}
+
+.droid:nth-child(even) .photo {
+   
+}
+
+.desc {
+    margin: auto;
+}
+
+.droid .thumbs {
+   
+}
