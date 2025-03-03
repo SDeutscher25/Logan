@@ -1,0 +1,6 @@
+body {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
