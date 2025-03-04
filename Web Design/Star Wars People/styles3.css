@@ -387,7 +387,7 @@
         height: 160px;
     }
     55% {
-        height: 160px;
+        height: 600px;
     }
     60% {
         height: 0;
@@ -401,10 +401,10 @@
         height: 0;
     }
     5% {
-        height: 160px;
+        height: 600px;
     }
     55% {
-        height: 160px;
+        height: 600px;
     }
     60% {
         height: 0;
@@ -1187,10 +1187,10 @@
         height: 0;
     }
     5% {
-        height: 200px;
+        height: 400px;
     }
     55% {
-        height: 200px;
+        height: 400px;
     }
     60% {
         height: 0;
@@ -1237,10 +1237,10 @@
 /* Hux */
 #hux .body {
     position: absolute;
-    width: 100px;
-    height: 150px;
+    width: 117px;
+    height: 260px;
     background: #191919;
-    top: 135px;
+    top: 170px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 30px;
@@ -1264,7 +1264,7 @@
     top: 20px;
     width: 20px;
     height: 11.55px;
-    background-color: #ccc;
+    background-color: red;
     margin: 5.77px 0;
 }
 #hux .patch:before,
@@ -1291,7 +1291,7 @@
     left: 50%;
     transform: translateX(-50%);
     top: 45px;
-    background: #e8673f;
+    background: white;
     border-radius: 50%;
 }
 #hux .hair-under {
@@ -1311,12 +1311,12 @@
     background: #efd5bd;
     border-radius: 50%;
     top: 10px;
-    right: 10px;
+    right: 41px;
 }
 #hux .pouf {
     position: absolute;
-    width: 44px;
-    height: 25px;
+    width: -10px;
+    height: 424px;
     border-radius: 100% 100px;
     left: 60px;
     top: 46px;
@@ -1336,7 +1336,7 @@
 }
 #hux .face {
     position: absolute;
-    width: 80px;
+    width: 100px;
     height: 80px;
     background: #efd5bd;
     border-radius: 50%;
@@ -1348,12 +1348,12 @@
 }
 #hux .ear {
     position: absolute;
-    background: #efd5bd;
-    width: 56px;
+    background: #00ff01;
+    width: 30px;
     height: 26px;
     border-radius: 100%;
     left: 50px;
-    top: 76px;
+    top: 48px;
 }
 #hux .ear.right {
     left: 120px;
@@ -1373,7 +1373,7 @@
     position: absolute;
     z-index: 2;
     width: 25px;
-    height: 50px;
+    height: 86px;
     left: 50%;
     transform: translateX(-50%);
     top: 90px;
@@ -1387,7 +1387,7 @@
     transform: translateX(-50%);
     top: 13px;
     width: 25px;
-    height: 30px;
+    height: 43px;
     background: #e5bb94;
     border-radius: 50%;
 }
@@ -1398,7 +1398,7 @@
     height: 8px;
     background: #424b54;
     border-radius: 0 3px 50% 50%;
-    left: 25%;
+    left: 30%;
     transform: translateX(-50%);
 }
 #hux .eyes:after {
@@ -1423,7 +1423,7 @@
 }
 #hux .mouth {
     position: absolute;
-    background: #424b54;
+    background: #e8673f;
     width: 11px;
     height: 6px;
     border-radius: 5px 5px 0 0;
