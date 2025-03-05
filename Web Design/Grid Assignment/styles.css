@@ -1,0 +1,8 @@
+body{
+    display: grid;
+    border: solid 1px black;
+    grid-template: repeat(7, 50px)/ 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+}
+p{
+    border: solid 1px black
+}
