@@ -1,0 +1,82 @@
+body{
+    margin:auto;
+    margin-top: 15px;
+    width: 800px;
+        background: url(backbeach.jpg) no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.grid{
+    display: grid;
+    margin: 15px;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template: repeat(7, 50px)/ 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+}
+p{
+    margin: -10px;
+    border: solid 1px black;
+    background-color: #b69e68;
+}
+.palm{
+    margin: -10px;
+    border: solid 1px black;
+    grid-area: 1/1/8/1;
+    background-color: #b69e68;
+}
+.palmi{
+    width: 111px;
+    height: 488px;
+}
+.coco{
+    margin: -10px;
+    border: solid 1px black;
+    grid-area: 3/2/5/4;
+    background-color: #b69e68;
+}
+.cocoi{
+    width: 224px;
+    height: 138px;
+}
+.house{
+    margin: -10px;
+    border: solid 1px black;
+    grid-area: 4/5/5/8;
+    background-color: #b69e68;
+}
+.housei{
+    width: 335px;
+    height: 68px;
+}
+.palm2{
+    margin: -10px;
+    border: solid 1px black;
+    grid-area: 1/4/8/5;
+    background-color: #b69e68;
+}
+.palmi2{
+    width: 111px;
+    height: 488px;
+}
+.fire{
+    margin: -10px;
+    border: solid 1px black;
+    grid-area: 1/6/3/7;
+    background-color: #b69e68;
+}
+.firei{
+    width: 111px;
+    height: 138px;
+}
+.juice{
+    margin: -10px;
+    border: solid 1px black;
+    grid-area: 6/6/8/7;
+    background-color: #b69e68;
+}
+.juicei{
+    width: 111px;
+    height: 138px;
+}
