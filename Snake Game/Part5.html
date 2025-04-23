@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0" />
+        <title>Snake Game</title>
+        <style>
+            body {
+                background-color: #270000;
+            }
+            canvas {
+                border: 3px solid #ff0000;
+                margin: 20px auto;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="snakeCanvas" width="600" height="600"></canvas>
+        <script>
+            const canvas = document.getElementByID("snakeCanvas");
+            const ctx = canvas.getContext("2d");
+
+            const tileSize = 20;
+            const gridSize = canvas.width / tileSize;
+
+            let snake = [{ x: 5, y: 5 }];
+            let food = { x: 10, y: 10 };
+            let direction = "right";
+
+            funtion drawSnake() {
+                ctx.fillStyle = "green";
+                snake.forEach(segment => {
+                    ctx.fillRect(segment.x * tileSize, segment.y * tileSize, tileSize, tileSize);
+                });
+            }
+        </script>
+    </body>
+</html>
