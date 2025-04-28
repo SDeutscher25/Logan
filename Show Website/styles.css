@@ -2,20 +2,27 @@ body {
     background-color: black;
 }
 .section {
+    position: relative;
+    top: -125px;
+    height: 750px;
     background-image: url("ban%20copy.png");
-    padding-bottom: 578px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
     color: white;
+    text-align: center;
+    font-size: 150px;
 }
 .inner {
+    position: relative;
+    top: -125px;
     display: grid;
     column-gap: 100px;
-    grid-template: 50px / 1fr 1fr 1fr 1fr;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
     color: white;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 415px;
     border: solid white 5px;
 }
 .iron {
@@ -23,7 +30,6 @@ h1 {
     display: grid;
     grid-template: 50px 141px 50px 50px / 1fr;
     border-right: solid white 5px;
-    padding-bottom: 465px;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -46,7 +52,6 @@ h1 {
     grid-template: 50px 103px 50px 50px / 1fr;
     border-right: solid white 5px;
     border-left: solid white 5px;
-    padding-bottom: 465px;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -66,10 +71,9 @@ h1 {
 .cap {
     grid-area: 1/3/1/3;
     display: grid;
-    grid-template: 50px 50px 50px 50px / 1fr;
+    grid-template: 50px 104px 50px 50px / 1fr;
     border-right: solid white 5px;
     border-left: solid white 5px;
-    padding-bottom: 465px;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -78,6 +82,7 @@ h1 {
 }
 .pic3 {
     grid-area: 2/3/2/3;
+    width: 225px;
 }
 .who3 {
     grid-area: 3/3/3/3;
@@ -88,9 +93,9 @@ h1 {
 .thor {
     grid-area: 1/4/1/4;
     display: grid;
-    grid-template: 50px 50px 50px 50px / 1fr;
+    grid-template: 50px 136px 50px 50px / 1fr;
     border-left: solid white 5px;
-    padding-bottom: 465px;
+    padding-bottom: 375px;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -99,6 +104,7 @@ h1 {
 }
 .pic4 {
     grid-area: 2/4/2/4;
+    width: 225px;
 }
 .who4 {
     grid-area: 3/4/3/4;
