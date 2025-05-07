@@ -1,0 +1,139 @@
+body {
+    background-color: #4c0000;
+}
+
+h1 {
+    position: relative;
+    top: -23px;
+    font-size: 300%;
+    text-align: center;
+    color: #c0c0c0;
+    width: cover;
+    padding-top: 25px;
+    height: 85px;
+    background-image: linear-gradient(#9b0000, #600000);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    font-family: castoro-titling, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.conpo {
+    display: flex;
+    justify-content: center;
+}
+.conpt {
+    display: flex;
+    justify-content: center;
+}
+.conpl {
+    display: flex;
+    justify-content: center;
+}
+
+.otto {
+    background-image: linear-gradient(#000350, #400000);
+    width: 380px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.o2 {
+    text-align: center;
+    color: #999999;
+}
+.o {
+    color: #999999;
+}
+.oo {
+    color: #999999;
+    margin-left: 10px;
+}
+.otto img {
+    position: relative;
+    left: 57px;
+}
+
+.teddy {
+    background-image: linear-gradient(#564201, #400000);
+    width: 380px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.t2 {
+    text-align: center;
+    color: #999999;
+}
+.t {
+    color: #999999;
+}
+.tt {
+    color: #999999;
+    margin-left: 10px;
+}
+
+.lenin {
+    background-image: linear-gradient(#720000, #400000);
+    width: 380px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+.l2 {
+    text-align: center;
+    color: #999999;
+}
+.l {
+    color: #999999;
+}
+.ll {
+    color: #999999;
+    margin-left: 10px;
+}
+.lenin img {
+    position: relative;
+    left: 48px;
+}
+
+img {
+    height: 380px;
+}
+
+.coni {
+    position: relative;
+    display: flex;
+    margin-bottom: 75px;
+    border-top: 3px solid #373737;
+    border-bottom: 3px solid #373737;
+    flex-flow: row nowrap;
+    width: cover;
+}
+.coni img {
+    height: 100px;
+    width: 5%;
+    border-left: 1px solid black;
+}
+
+footer {
+    position: fixed;
+    font-size: 150%;
+    text-align: center;
+    color: #c0c0c0;
+    width: 100%;
+    padding-top: 15px;
+    height: 45px;
+    bottom: 0%;
+    background-image: linear-gradient(#600000, #9b0000);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
