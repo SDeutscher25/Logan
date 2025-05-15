@@ -13,7 +13,7 @@
         </style>
     </head>
     <body>
-        <canvas id="pongCanvas" width="600" height="400"></canvas>
+        <canvas id="pongCanvas" width="800" height="500"></canvas>
 
         <script>
             const canvas = document.getElementById("pongCanvas");
@@ -21,16 +21,16 @@
 
             // Paddle
             const paddleWidth = 15,
-                paddleHeight = 65;
+                paddleHeight = 75;
             let leftPaddleY = (canvas.height - paddleHeight) / 2;
             let rightPaddleY = (canvas.height - paddleHeight) / 2;
 
             // Ball
-            const ballSize = 10;
+            const ballSize = 5;
             let ballX = canvas.width / 2;
             let ballY = canvas.height / 2;
-            let ballSpeedX = 5;
-            let ballSpeedY = 5;
+            let ballSpeedX = 7;
+            let ballSpeedY = 7;
 
             // Drawing functions
             function draw() {
@@ -54,35 +54,56 @@
             function update() {
                 //Move right paddle based on ball position
                 if (rightPaddleY + paddleHeight / 2 < ballY) {
-                    rightPaddleY += 3;
+                    rightPaddleY += 5;
                 } else {
-                    rightPaddleY -= 3;
+                    rightPaddleY -= 5;
                 }
-                
+
                 //Move ball
                 ballX += ballSpeedX;
                 ballY += ballSpeedY;
-                
+
                 //Bounce off top and bottom walls
                 if (ballY - ballSize < 0 || ballY + ballSize > canvas.height) {
                     ballSpeedY = -ballSpeedY;
                 }
-                
+
                 //Bounce off paddles
                 if (
                     (ballX - ballSize < paddleWidth && ballY > leftPaddleY && ballY < leftPaddleY + paddleHeight) ||
-                    (ballX + ballSize > canvas.width - paddleWidth && ballY > rightPaddleY && ballY < rightPaddleY + paddleHeight)
+                    (ballX + ballSize > canvas.width - paddleWidth &&
+                        ballY > rightPaddleY &&
+                        ballY < rightPaddleY + paddleHeight)
                 ) {
                     ballSpeedX = -ballSpeedX;
                 }
-                
+
                 //Check for scoring
                 if (ballX - ballSize < 0 || ballX + ballSize > canvas.width) {
                     //Reset ball position
                     ballX = canvas.width / 2;
                     ballY = canvas.height / 2;
+
+                    // Reset ball speed and direction
+                    ballSpeedX = -ballSpeedX;
                 }
             }
+
+            // Game loop
+            function gameLoop() {
+                draw();
+                update();
+                requestAnimationFrame(gameLoop);
+            }
+
+            // Start the game loop
+            gameLoop();
+
+            // Event listener for paddle movement
+            document.addEventListener("mousemove", (event) => {
+                const mouseY = event.clientY - canvas.getBoundingClientRect().top;
+                leftPaddleY = mouseY - paddleHeight / 2;
+            });
         </script>
     </body>
 </html>
