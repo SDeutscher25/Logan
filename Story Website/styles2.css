@@ -29,3 +29,7 @@ body {
     padding-bottom: 30px;
     border-bottom: solid black 5px;
 }
+
+h2 {
+    color: white;
+}
