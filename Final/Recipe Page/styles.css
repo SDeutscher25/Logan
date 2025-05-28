@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-h1 { 
+h1 {
     width: cover;
     height: 75px;
     padding-top: 10px;
@@ -39,4 +39,12 @@ a {
     font-size: 250%;
     margin-top: 75px;
     color: #fff1df;
+}
+
+.food {
+    position: absolute;
+    left: 90%;
+    top: -5%;
+    font-size: 150%;
+    color: blue;
 }
