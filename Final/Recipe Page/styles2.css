@@ -21,11 +21,12 @@ h1 {
     margin-right: auto;
     margin-bottom: 50px;
     position: relative;
-    width: 700px;
+    width: 600px;
     padding-left: 100px;
+    padding-right: 100px;
     border: #efd0aa 10px solid;
-    background-color: #f0d9ba;
-    color: #fff1df;
+    background-color: #d8bd9c;
+    color: #fff3e4;
     flex-direction: column;
 }
 
@@ -57,4 +58,19 @@ ul {
 
 .bod {
     margin-left: 25px;
+}
+
+.food {
+    position: absolute;
+    left: 90%;
+    top: -5%;
+    color: blue;
+    font-size: 150%;
+    margin-top: 75px;
+}
+
+img {
+    width: 600px;
+    margin-top: -50px;
+    border: #efd0aa 10px solid;
 }
